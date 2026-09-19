@@ -24,7 +24,7 @@ def valid_palindrome(s):
                 remove += 1
             # If neither helps, than we need to remove at least two letter, but that can't happen
             else:
-                status = False
+                status = False  # If I hadn't blanked and type "True" here this code would've been a one-shot :_)
         
     # If it ends up needing more than 1 letter removed (remove>1)
     if remove > 1:
