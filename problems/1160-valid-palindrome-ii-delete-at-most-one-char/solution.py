@@ -22,7 +22,7 @@ def valid_palindrome(s):
             elif s[i_char + f_adjust] == s[length - i_char - 2 - b_adjust]:
                 b_adjust += 1
                 remove += 1
-            # If neither helps, than we need to remove at least two letter, but that can't happen
+            # If neither helps, than we need to remove at least two letter or it is invalid, but neither aren't allowed to happen
             else:
                 status = False  # If my brain hadn't blanked and typed "True" here this code would've been a one-shot :_)
         
