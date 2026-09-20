@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**10** solved · 10 problems · 0 labs · 0 math
+**11** solved · 11 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -21,6 +21,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Transpose of a Matrix](https://www.deep-ml.com/problems/2) | easy | 2026-09-18 | [solution](problems/0002-transpose-of-a-matrix) |
 | [Valid Palindrome II (Delete At Most One Char)](https://www.deep-ml.com/problems/1160) | easy | 2026-09-19 | [solution](problems/1160-valid-palindrome-ii-delete-at-most-one-char) |
 | [Calculate Eigenvalues of a Matrix](https://www.deep-ml.com/problems/6) | medium | 2026-09-19 | [solution](problems/0006-calculate-eigenvalues-of-a-matrix) |
+| [Filter, Group, and Aggregate a DataFrame (Top-10 by Metric)](https://www.deep-ml.com/problems/1127) | medium | 2026-09-20 | [solution](problems/1127-filter-group-and-aggregate-a-dataframe-top-10-by-metric) |
 | [Matrix times Matrix ](https://www.deep-ml.com/problems/9) | medium | 2026-09-19 | [solution](problems/0009-matrix-times-matrix) |
 
 ---
