@@ -8,9 +8,9 @@ def linear_regression_normal_equation(X: list[list[float]], y: list[float]) -> l
 
 	trans_X = X.transpose()
 	theta = (trans_X @ X)  # Inner product
-	theta = np.linalg.inv(theta)
-	theta = (theta @ trans_X @ y)
+	theta = np.linalg.inv(theta) # Inverse it
+	theta = (theta @ trans_X @ y)  # Inner product
 
-	theta = np.round(theta, 4)
+	theta = np.round(theta, 4)  # Round to 4 decimal points
 
 	return theta
